@@ -1,0 +1,6 @@
+<dl>
+	<dt>最新博文</dt>
+	<foreach name='blog' item='v'>
+		<dd><a href="{:U('/'.$v['id'])}">{$v.title}({$v.time|date='m/d',###})</a></dd>
+	</foreach>
+</dl>

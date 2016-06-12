@@ -1,0 +1,49 @@
+<!--头部-->
+	<div class='top-list-wrap'>
+		<div class='top-list'>
+			<ul class='l-list'>
+				<li><a href="http://www.thinkphp.cn" target='_blank'>ThinkPHP</a></li>
+				<li><a href="http://www.imooc.com" target='_blank'>慕课网</a></li>
+				<li><a href="http://www.bootcss.com" target='_blank'>Bootstrap</a></li>
+			</ul>
+			<ul class='r-list'>
+				<li><a href="http://www.wooyun.org" target='_blank'>乌云</a></li>
+				<li><a href="http://wiki.wooyun.org" target='_blank'>乌云WiKi</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class='top-search-wrap'>
+		<div class='top-search'>
+			<a href="http://bbs.houdunwang.com" target='_blank' class='logo'>
+				<img src="__PUBLIC__/Images/logo.png"/>
+			</a>
+			<div class='search-wrap'>
+				<form action="" method='get'>
+					<input type="text" name='keyword' class='search-content'/>
+					<input type="submit" name='search' value='搜索'/>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<li class='nav-lv1-li'>
+				<a href="__ROOT__/" class='top-cate'>博客首页</a>
+			</li>
+			<nav order='sort'>
+				<li class="nav-lv1-li">
+					<a href="{:U('/c_'.$v['id'])}" class="top-cate">{$v.name}</a>
+					<ul>
+						<foreach name="v.child" item="value">
+						<li><a href="{:U('/c_'.$value['id'])}">{$value.name}</a></li>
+						</foreach>
+					</ul>
+				</li>
+			</nav>
+		</ul>
+	</div>

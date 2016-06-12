@@ -1,0 +1,48 @@
+[ 2016-04-25T16:31:34+08:00 ] 127.0.0.1 /blog/index.php/MODULE_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:MODULE_NAME
+
+[ 2016-04-25T16:31:36+08:00 ] 127.0.0.1 /blog/index.php/MODULE_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:MODULE_NAME
+
+[ 2016-04-25T16:31:37+08:00 ] 127.0.0.1 /blog/index.php/MODULE_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:MODULE_NAME
+
+[ 2016-04-25T16:31:57+08:00 ] 127.0.0.1 /blog/index.php/MODULE_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:MODULE_NAME
+
+[ 2016-04-25T16:31:57+08:00 ] 127.0.0.1 /blog/index.php/MODULE_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:MODULE_NAME
+
+[ 2016-04-25T16:32:20+08:00 ] 127.0.0.1 /blog/index.php/GROUP_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-04-25T16:32:21+08:00 ] 127.0.0.1 /blog/index.php/GROUP_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-04-25T16:32:21+08:00 ] 127.0.0.1 /blog/index.php/GROUP_NAME/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+

@@ -1,0 +1,6 @@
+<dl>
+	<dt>最热博文</dt>
+	<foreach name='blog' item='v'>
+		<dd><a href="{:U('/'.$v['id'])}">{$v.title}(<script type="text/javascript" src="{:U(MODULE_NAME.'/Show/getNum',array('id'=>$v['id']))}"></script>)</a></dd>
+	</foreach>
+</dl>
